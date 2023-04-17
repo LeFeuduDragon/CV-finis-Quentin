@@ -1,0 +1,33 @@
+
+
+
+
+
+body{
+  min-height: 100vh;
+  margin: 0;
+  background:url(image\ cv/blue.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+li{
+  background: rgba(196, 173, 173, 0.5);
+}
+a {
+  color: black;
+}
+h1{font-size:50px;}
+
+li,h1{justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:url(image\ cv/bois.png);
+  border: solid 8px black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;}
+
+ul,li{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;}
